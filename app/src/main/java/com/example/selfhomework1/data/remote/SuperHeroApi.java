@@ -13,8 +13,8 @@ public interface SuperHeroApi {
     @GET("/id")
     Call<List<SuperHero>> gerHeroes();
 
-    @GET("/id/{name}")
-    Call<SuperHero> getHero(
-            @Path("name") String name
-    );
+//    @GET("/id/{name}")
+//    Call<SuperHero> getHero(
+//            @Path("name") String name
+//    );
 }
